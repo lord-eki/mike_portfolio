@@ -1,0 +1,2 @@
+export const SITE_TITLE = 'Mike Muyonga - Educator & Public Speaking Coach';
+export const SITE_DESCRIPTION = 'French teacher, ICT educator, and public speaking coach helping students and professionals communicate with confidence and impact.';

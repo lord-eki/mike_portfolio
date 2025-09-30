@@ -1,0 +1,45 @@
+---
+import Layout from "../layouts/BlogPost.astro";
+import GlowLineSeparator from "@/components/ui/separator/GlowLineSeparator.astro";
+const pageTitle = "About Me";
+const pageDescription =
+  "Learn more about my background and approach to coaching.";
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  pubDate={new Date()}
+  showHeader={false}
+>
+  <p>
+    I am a passionate and versatile educator with expertise in French language,
+    Information and Communication Technology (ICT), and public speaking
+    coaching.
+  </p>
+  <p>
+    With over 7 years of teaching experience, I am dedicated to helping learners
+    develop not just academic skills, but also the confidence and communication
+    abilities they need to thrive in today’s world.
+  </p>
+  <p>
+    As a French teacher, I focus on making the language accessible and
+    enjoyable, blending grammar, culture, and conversation to create an
+    immersive learning experience. As an ICT educator, I empower students with
+    digital skills, encouraging creativity, problem-solving, and responsible
+    technology use in a rapidly evolving digital landscape.
+  </p>
+  <p>
+    In my role as a public speaking coach, I work with students, professionals,
+    and aspiring speakers to build their confidence, clarity, and presence.
+    Whether preparing for presentations, interviews, or public engagements, I
+    provide practical tools and personalized feedback to help each individual
+    speak with impact.
+  </p>
+  <p>
+    At the core of all my work is a belief in the power of education,
+    communication, and lifelong learning.
+  </p>
+
+  <GlowLineSeparator />
+</Layout>
